@@ -1,0 +1,155 @@
+body {
+	font-family: 'Monsserat', bold;
+	color: #FFFFFF;
+	font-size: 16px;
+    overflow-x: hidden;
+    font-family: 'Montserrat';
+	
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto; /*позиционирование по центру*/
+}
+
+.header {
+	display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-around;
+	word-spacing: 40px;
+}
+
+
+.menu {
+	display: flex;
+	font-size: 15px;
+	align-items: center;
+    justify-content: space-around;
+}
+
+ul, li {
+	display: block;
+}
+
+.menu li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #333D6E;
+}
+
+.menu li {
+	margin-right: 10px;
+}
+
+
+.bg1 {
+	height: 750px;
+    width: 100%;
+    background-image: url("bg22.jpg");
+	background-repeat: no-repeat;;
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-around;
+	margin-right: 350px;
+}
+
+
+
+.about{
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.first-block{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+    align-items: center;
+	width: 1000px;
+	padding: 30px;
+	justify-content: center;
+	
+}
+
+
+.text_a {
+	font-size: 15px;
+	margin-bottom: 0px;
+	width: 599px;
+    height: 20px;
+	color: #000;
+	line-height: 15px;
+	justify-content: center;
+	
+}
+
+
+
+
+
+
+
+
+
+.button {
+
+    background-color: #000;
+	margin-top: 200px;
+    color: #fff;
+    border:none; 
+    border-radius:30px; 
+    padding:15px 70px 15px 70px;
+    min-height:20px; 
+    min-width: 100px;
+    font-size: 20px;
+  }
+
+
+.button:hover {
+      background-color:#e5d7c6;
+      transition: 0.3s;
+      color: #FFF;
+      font-size: 20px;
+  }
+
+
+.button:active {
+    background-color:#e5d7c6;
+    color: #e5d7c6;
+    transition: 0.1s;
+    color: #e5d7c6;
+    font-size: 20px;
+}
+
+
+
+
+
+.footer{
+    display: flex;
+    height: 110px;
+    align-items: center;
+    justify-content: space-around;
+	background-image: url("inst.png");
+	background-repeat: no-repeat;;
+  
+	
+}
+
+.links a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #000;
+	
+}
+
+
+
+
+
